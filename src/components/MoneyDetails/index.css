@@ -1,1 +1,38 @@
-/* Write your CSS here */
+.expensive-item {
+  min-width: 380px;
+  padding: 16px;
+  margin-right: 10px;
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+}
+
+.expensive-img {
+  width: 100px;
+  height: 100px;
+  margin-right: 18px;
+}
+
+.expensive-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.expensive-details-des {
+}
+
+.green {
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+}
+
+.purple {
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+}
+.blue {
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+}

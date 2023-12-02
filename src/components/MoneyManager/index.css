@@ -1,1 +1,150 @@
-/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Roboto;
+}
+
+/*
+small
+@media (max-width:576px){
+
+
+}
+*/
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.header {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20vh;
+  margin: 12px;
+  padding: 20px;
+}
+.header-heading {
+  font-size: 32px;
+  color: #475569;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.header-des {
+  font-size: 16px;
+}
+.header-des-span {
+  color: #0b69ff;
+  font-weight: bold;
+}
+@media (min-width: 576px) {
+  .header-heading {
+    font-size: 38px;
+    color: #475569;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .header-des {
+    font-size: 20px;
+  }
+}
+
+.incomepf-list {
+  margin: 12px;
+  padding: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  list-style: none;
+  display: flex;
+  border-radius: 8px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+.transation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6px;
+}
+
+.input-card {
+  max-width: 500px;
+  margin: 12px;
+  border: 2px solid grey;
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.transaction-form {
+  margin-top: 18px;
+}
+
+.transaction-card {
+  width: 100%;
+  padding: 30px;
+  margin-top: 12px;
+  border: 2px solid #cbd5e1;
+  border-radius: 16px;
+  overflow-y: auto;
+  position: relative;
+}
+@media (min-width: 940px) {
+  .transation-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .transaction-card {
+    height: 440px;
+  }
+}
+
+.label {
+  color: grey;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.input {
+  margin-bottom: 18px;
+  outline: none;
+  border: 2px solid #cbd5e1;
+  padding: 10px;
+  border-radius: 8px;
+  width: 350px;
+}
+.form-button {
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #0b69ff;
+  outline: none;
+  border: none;
+  width: 120px;
+}
+
+.input::placeholder {
+  color: #cbd5e1;
+}
+
+.card-tabal {
+  width: 99%;
+  color: #334155;
+}
+
+.tabel-head {
+  height: 36px;
+  font-weight: bold;
+}
+.tabel-row {
+  border: 2px solid grey;
+}
+.cell {
+  padding: 10px;
+}

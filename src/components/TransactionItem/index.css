@@ -1,1 +1,9 @@
-/* Write your CSS here */
+.del-img {
+  width: 25px;
+}
+
+.del-btn {
+  outline: none;
+  border: none;
+  background-color: none;
+}
